@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css">
+        <script src="script.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="style.css">
+        <title></title>
+    </head>
+    <body>
+
+            <div class="container">
+                <div class="row card-container">
+                    
+                </div>
+            </div>
+            <script id="card-template" type="text/x-handlebars-template">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{poster}}" alt="">
+                        <h2> {{ title }} </h2>
+                        <em>{{ author }}</em>
+                        <p> {{ genre }} </p>
+                        <p> {{ year }} </p>
+                    </div>
+                </div>
+
+            </script>
+
+    </body>
+</html>
